@@ -1,0 +1,59 @@
+name: zp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase (latest stable compatible with Flutter 3.8.1)
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_database: ^11.3.6
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.4
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  url_launcher: ^6.2.6
+  win32: ^5.5.1
+  http: ^0.13.6
+  rxdart: ^0.27.7
+
+  # File/Image/PDF
+  image_picker: ^1.0.7
+  flutter_image_compress: ^2.1.0
+  pdf: ^3.10.4
+  printing: ^5.12.0
+  flutter_pdfview: ^1.3.2
+ # file_picker: ^6.1.1
+  share_plus: ^7.2.1
+
+  # UI Packages
+  dropdown_search: ^5.0.6
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_typeahead: ^5.2.0
+  video_player: ^2.7.0
+  chewie: ^1.7.0
+  table_calendar: ^3.0.9
+
+  # Mailer
+  mailer: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
